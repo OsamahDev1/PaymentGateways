@@ -1,6 +1,6 @@
 <?php
 
-namespace kmalarifi97\PaymentGateways\Exceptions;
+namespace Kmalarifi97\PaymentGateways\Exceptions;
 
 
 use RuntimeException;

@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "kmalarifi97\\GatewayAuth\\": "src/"
+      "Kmalarifi97\\GatewayAuth\\": "src/"
     }
   },
   "autoload-dev": {
@@ -20,7 +20,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "kmalarifi97\\GatewayAuth\\GatewayAuthServiceProvider"
+        "Kmalarifi97\\GatewayAuth\\GatewayAuthServiceProvider"
       ]
     }
   },

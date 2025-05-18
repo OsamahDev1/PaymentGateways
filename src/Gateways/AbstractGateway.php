@@ -1,10 +1,10 @@
 <?php
-namespace kmalarifi97\PaymentGateways\Gateways;
+namespace Kmalarifi97\PaymentGateways\Gateways;
 
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Log;
-use kmalarifi97\PaymentGateways\DTO\GatewayResponse;
-use kmalarifi97\PaymentGateways\Exceptions\GatewayException;
+use Kmalarifi97\PaymentGateways\DTO\GatewayResponse;
+use Kmalarifi97\PaymentGateways\Exceptions\GatewayException;
 
 abstract class AbstractGateway
 {

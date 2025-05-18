@@ -1,8 +1,8 @@
 <?php
-namespace kmalarifi97\PaymentGateways\Contracts;
+namespace Kmalarifi97\PaymentGateways\Contracts;
 
 use Carbon\Carbon;
-use kmalarifi97\PaymentGateways\DTO\GatewayResponse;
+use Kmalarifi97\PaymentGateways\DTO\GatewayResponse;
 
 interface PaymentGateway
 {

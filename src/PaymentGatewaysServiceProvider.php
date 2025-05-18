@@ -1,13 +1,13 @@
 <?php
-namespace kmalarifi97\PaymentGateways;
+namespace Kmalarifi97\PaymentGateways;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Http\Request;
-use kmalarifi97\PaymentGateways\Contracts\PaymentGateway;
-use kmalarifi97\PaymentGateways\Contracts\PaymentGatewayDetector;
-use kmalarifi97\PaymentGateways\Exceptions\InvalidGatewayException;
-use kmalarifi97\PaymentGateways\Gateways\HyperpayGateway;
-use kmalarifi97\PaymentGateways\Gateways\FatoorahGateway;
+use Kmalarifi97\PaymentGateways\Contracts\PaymentGateway;
+use Kmalarifi97\PaymentGateways\Contracts\PaymentGatewayDetector;
+use Kmalarifi97\PaymentGateways\Exceptions\InvalidGatewayException;
+use Kmalarifi97\PaymentGateways\Gateways\HyperpayGateway;
+use Kmalarifi97\PaymentGateways\Gateways\FatoorahGateway;
 
 class PaymentGatewaysServiceProvider extends ServiceProvider
 {

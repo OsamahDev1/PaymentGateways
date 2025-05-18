@@ -1,7 +1,7 @@
 <?php
 
 // src/DTO/GatewayResponse.php
-namespace kmalarifi97\PaymentGateways\DTO;
+namespace Kmalarifi97\PaymentGateways\DTO;
 
 class GatewayResponse
 {

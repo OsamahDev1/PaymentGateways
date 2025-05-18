@@ -1,6 +1,6 @@
 <?php
 // src/Contracts/PaymentGatewayDetector.php
-namespace kmalarifi97\PaymentGateways\Contracts;
+namespace Kmalarifi97\PaymentGateways\Contracts;
 
 use Illuminate\Http\Request;
 
