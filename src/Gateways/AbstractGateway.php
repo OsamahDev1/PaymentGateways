@@ -3,8 +3,8 @@ namespace kmalarifi97\PaymentGateways\Gateways;
 
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Log;
-use Nelc\PaymentGateways\DTO\GatewayResponse;
-use Nelc\PaymentGateways\Exceptions\GatewayException;
+use kmalarifi97\PaymentGateways\DTO\GatewayResponse;
+use kmalarifi97\PaymentGateways\Exceptions\GatewayException;
 
 abstract class AbstractGateway
 {
